@@ -1,0 +1,89 @@
+@charset "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+
+/** Styles of content **/
+
+body {
+  margin: 0;
+  	background-repeat: no-repeat;
+  	background-position: center;
+    background-size: 100% 100%;
+    background-color: #e7f7fc;
+    
+}
+
+#topic{
+	text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 3px;
+    font-size: 45px;
+    font-weight: bold ;
+}
+
+
+#tbl {
+	margin-left: 400px;
+    margin-right: 360px;
+    height: 600px;
+	    
+	  background-color:rgb(54, 118, 150);
+	  background-color:rgba(54, 118, 150, 0.7);
+	  border-radius: 20px;
+}
+
+table {
+	height:400px;
+	margin-left: 80px;
+	margin-top: 30px;
+	margin-right: 50px;
+	font-weight: bold ;
+}
+
+table tr {
+	border: 2px solid;
+	height:45px;
+	font-family:sans-serif;
+	font-size: 20px;
+}
+
+table td {
+	width : 250px;
+	
+	padding: 15px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 12px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=password] {
+    width: 100%;
+    padding: 12px 12px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+	 
+    display: block;
+    text-align: center;
+    height: 60px;
+    margin-left: 220px;
+    width:220px;
+    border-width:2px;
+    border-color: black;
+    background-color: rgb(255, 208, 0);
+    border-radius: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold ;
+    font-size: 20px;
+}
+    
